@@ -1,6 +1,9 @@
 .accordion {
+    color: #757575;
     cursor: pointer;
     transition: 0.4s;
+    padding-top: 16;
+    padding-bottom: 16;
 }
 
 .active, .accordion:hover {
@@ -23,6 +26,53 @@
     margin-left: 5px;
   }
 
-  .active:after {
+.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+}
+
+.light-grey {
+    color:#000;
+    background-color: #f1f1f1;
+}
+
+.white {
+    color: #000;
+    background-color: #fff;
+}
+
+.grey-text {
+    color: #757575
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+}
+
+.margin-top {
+    margin-top: 16px;
+}
+
+.row-padding {
+    padding: 0 8px;
+}
+
+.third {
+    float: left;
+    width: 33.33333%;
+}
+
+.shadow {
+    box-shadow: 0 4px 10px 0 black, 0 4px 20px 0 black;
+}
+
+.relative {
+    position: relative;
+}
+
+.bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

@@ -1,0 +1,4 @@
+https://medium.com/analytics-vidhya/building-a-simple-chatbot-in-python-using-nltk-7c8c8215ac6e
+https://stackabuse.com/python-for-nlp-creating-a-rule-based-chatbot/
+https://betterprogramming.pub/build-your-first-chatbot-with-python-and-integrate-it-on-telegram-39d7e058b709
+https://rasa.com/docs/

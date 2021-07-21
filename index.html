@@ -24,14 +24,14 @@
         <div class="aboutBox">
             <h3 class="contentTitle">About Me</h3>
             <p class="contentSublist">Hi! My name is Adam Nielsen, I'm a 23 year old Software Engineer who loves the outdoors, reading, 
-                and learning new things. I'm hard working, a quick learner, and good at working with others. Please reach out to me and we can talk some more!</p>
+                and learning new things. I'm hard working, a quick learner, and skilled at working with others. Please reach out to me and we can talk some more!</p>
             <a href="mailto: adamnielsen7@gmail.com?Subject = Hello" class="fa fa-envelope fa-lg">My Email</a>
         </div>
     </section>
     <main id="content">
         <div class="contentBox">
-            <button class="contentTitle">Skills</button>
-            <div class="collapsible">
+            <button class="contentTitle expanded">Skills</button>
+            <div class="collapsible" style="display: block;">
                 <ul class="contentList">
                 <li>C++
                     <ul class="contentSublist">
@@ -72,17 +72,17 @@
         </div>
         <div class="contentBox">
             <button class="contentTitle">Work Experience</button>
-            <div class="collapsible">
+            <div class="collapsible" style="display: none;">
                 <ul class="contentList">
                 <li> Intern Software Developer <br>
-                    <span class = "companyInfo">13D Global Strategy & Research</span>
-                    <span class="date">June - August 2020</span> <br>
+                    <span class = "companyInfo">13D Global Strategy & Research</span> <br>
+                    <span class="date">June - August 2020</span>
                     <ul class="contentSublist">
                     <li> Applied machine learning algorithms to identify at-risk clients </li>
                     <li> Researched and applied new technologies </li></ul></li>
                 <li> Peer Facilitator <br>
-                    <span class="companyInfo">BYUI College Success Program</span>
-                    <span class="date">June 18 - April 2019</span>
+                    <span class="companyInfo">BYUI College Success Program</span> <br>
+                    <span class="date">June 2018 - April 2019</span>
                     <ul class="contentSublist">
                         <li> Taught group-work based curriculum to classes of 30+ students </li>
                         <li> Received extensive leadership and education training </li></ul></li>
@@ -91,7 +91,7 @@
         </div>
         <div class="contentBox">
             <button class="contentTitle">Education</button>
-            <div class="collapsible">
+            <div class="collapsible" style="display: none;">
                 <ul class="contentList">
                 <li> Brigham Young University Idaho <br>
                     <span class="companyInfo">Completed all Academic Requirements</span>
@@ -103,8 +103,8 @@
             </div>
         </div>
         <div class="contentBox">
-            <button class="contentTitle">Cool Projects I've Completed</button>
-            <div class="collapsible">
+            <button class="contentTitle">Projects I've Completed</button>
+            <div class="collapsible" style="display: none;">
                 <ul class="contentList">
                 <li><a href="https://coursera.org/share/b863717ba327e6709b9c98621a488199">DeepLearning.AI Tensorflow Developer Specialization</a></li>
                 <li><a href="https://chatbot-adamnielsen.herokuapp.com/">Personal Retrieval Based Chatbot</a></li>
@@ -117,12 +117,14 @@
             </div>
         </div>
         <div class="contentBox">
-            <button class="contentTitle">Just For Fun!</button>
-            <div class="collapsible">
+            <button class="contentTitle">Just For Fun</button>
+            <div class="collapsible" style="display: none;">
             <ul class="contentList">
                 <li>Music I'm listening to now!
                     <iframe src="https://open.spotify.com/embed/playlist/3YKymaYNHSaGqfofgo2a9Q?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </li>
+                <li>Some of my Favorite Anime <ul class = "contentSublist" id="animeList">
+                </ul></li>
             </ul>
             </div>
         </div>

@@ -122,7 +122,27 @@ footer p {
 .fa {
     padding-bottom: 10px;
     color: darkgreen;
-    padding: 0px 5px 5px;
+    padding: 0px 5px 10px;
+}
+
+button.contentTitle {
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    cursor: pointer;
+}
+
+.expanded {
+    border-bottom: 6px solid darkgreen;
+}
+
+#animeList img {
+    width: 284;
+    height: 402;
+    padding: 5px;
+    margin: auto;
 }
 
 @media only screen and (min-width: 600px) {
@@ -143,5 +163,11 @@ footer p {
     .intro {
         max-width: 35%;
         float: left;
+    }
+    body {
+        overflow-y: scroll; /*fix chrome jitter*/
+    }
+    .aboutBox {
+        margin-bottom: 80px;
     }
 }

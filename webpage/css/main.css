@@ -1,0 +1,147 @@
+body {
+    background: whitesmoke;
+    padding: 15px;
+}
+
+.title {
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    margin:auto;
+    border: 2px solid darkgreen;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.pfp {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 5px;
+}
+
+.aboutBox {
+    box-shadow: 5px 5px 18px -5px;
+    padding: 5px;
+    margin: 5px auto;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    background-color: white;
+}
+
+.contentBox {
+    box-shadow: 5px 5px 18px -5px;
+    padding: 5px;
+    margin: 5px auto;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    background-color: white;
+}
+
+.contentBox:last-child {
+    margin-bottom: 50px
+}
+
+.contentTitle {
+    width: 95%;
+    border: none;
+    background-color: white;
+    margin: 0;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    border-left: 6px solid darkgreen;
+    border-bottom: 1px solid darkgray;
+}
+
+.contentList {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    font-size: larger;
+    padding: 8px;
+}
+
+.contentList li {
+    padding: 5px;
+}
+
+.contentSublist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentSublist li {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-right: 15px;
+    font-size: medium;
+}
+
+.companyInfo {
+    font-size: small;
+}
+
+.date {
+    font-size: small;
+    color: darkgreen;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-top: 6px solid darkgreen;
+}
+
+footer p {
+    margin: 0px;
+    padding: 2px;
+}
+
+.fa {
+    padding-bottom: 10px;
+    color: darkgreen;
+    padding: 0px 5px 5px;
+}
+
+@media only screen and (min-width: 600px) {
+    html {
+        max-width: 95%;
+        margin: auto
+    }
+    .title {
+        margin-bottom: 15px;
+    }
+    .contentBox {
+        width: 60%;
+        float: right;
+    }
+    .contentBox:last-child {
+        margin-bottom: 80px
+    }
+    .intro {
+        max-width: 35%;
+        float: left;
+    }
+}
